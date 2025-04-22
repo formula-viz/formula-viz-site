@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Formula Viz | Automated F1 Qualifying Visualizations",
+  title: "Formula Viz",
   description:
     "Automatically generated Formula 1 qualifying visualization videos",
 };

@@ -5,10 +5,10 @@ import { useEffect, useState } from "react";
 
 const Hero = () => {
   // Function to convert HSL to RGB, then to hex
-  const hslToHex = (h, s, l) => {
+  const hslToHex = (h: number, s: number, l: number) => {
     l /= 100;
     const a = (s * Math.min(l, 1 - l)) / 100;
-    const f = (n) => {
+    const f = (n: number) => {
       const k = (n + h / 30) % 12;
       const color = l - a * Math.max(Math.min(k - 3, 9 - k, 1), -1);
       return Math.round(255 * color)

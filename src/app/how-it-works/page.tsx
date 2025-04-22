@@ -3,7 +3,17 @@ import React, { useState } from "react";
 import Image from "next/image";
 
 // Dropdown component for process steps
-const ProcessStep = ({ title, children, icon, moduleImage }) => {
+const ProcessStep = ({
+  title,
+  children,
+  icon,
+  moduleImage,
+}: {
+  title: string;
+  children: React.ReactNode;
+  icon: string;
+  moduleImage?: string;
+}) => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (

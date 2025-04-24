@@ -115,7 +115,7 @@ const HowItWorksPage = () => {
 
             <div className="flex flex-col items-center">
               <h3 className="text-2xl font-bold text-white mb-4">
-                40,000+ Monthly Views
+                50,000+ Monthly Views
               </h3>
               <div className="relative">
                 <Image
